@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Start Card */
+.card {
+    width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0px 20px 0px #d0dbe8;
+}
+/* End Card */
+/* Start QR CODE Image */
+.card .qr-code {
+    overflow: hidden;
+}
+.card .qr-code img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* End QR CODE Image */
+/* Start Header Card */
+.card h2 {
+    padding: 16px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+/* End Header Card */
+/* Start Paragraph Card */
+.card p {
+    padding: 0 20px 20px 25px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+/* End Paragraph Card */
