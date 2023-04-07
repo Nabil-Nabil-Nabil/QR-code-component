@@ -1,11 +1,10 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
@@ -17,34 +16,33 @@ body {
 
 /* Start Card */
 .card {
-    width: 320px;
+    width: 20rem;
     background-color: hsl(0, 0%, 100%);
-    padding: 16px;
-    border-radius: 20px;
+    padding: 1rem;
+    border-radius: 1.1rem; 
     text-align: center;
-    box-shadow: 0 0px 20px 0px #d0dbe8;
+    box-sizing: 5px 5px 5px rgba(0, 0, 0, .3);
 }
 /* End Card */
 /* Start QR CODE Image */
-.card .qr-code {
-    overflow: hidden;
-}
-.card .qr-code img {
-    width: 100%;
-    border-radius: 10px;
+.card img {
+    max-width: 100%;
+    border-radius: 0.625rem;
 }
 /* End QR CODE Image */
 /* Start Header Card */
-.card h2 {
-    padding: 16px;
+.card h1 {
+    font-size: 1.4rem;
+    margin: 1.25rem 0;
     color: hsl(218, 44%, 22%);
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 /* End Header Card */
 /* Start Paragraph Card */
 .card p {
-    padding: 0 20px 20px 25px;
+    /* padding: 0 20px 20px 25px; */
+    margin: 1.25rem 0.9rem;
     color: hsl(220, 15%, 55%);
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 /* End Paragraph Card */
