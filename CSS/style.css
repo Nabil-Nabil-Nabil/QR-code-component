@@ -35,14 +35,11 @@ body {
     font-size: 1.4rem;
     margin: 1.25rem 0;
     color: hsl(218, 44%, 22%);
-    /* font-weight: 700; */
 }
 /* End Header Card */
 /* Start Paragraph Card */
 .card p {
-    /* padding: 0 20px 20px 25px; */
     margin: 1.25rem 0.9rem;
     color: hsl(220, 15%, 55%);
-    /* font-weight: 400; */
 }
 /* End Paragraph Card */
